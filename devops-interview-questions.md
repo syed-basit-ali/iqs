@@ -1,5 +1,7 @@
 # DevOps Interview Questions
 
+<small>Curated questions organized by domain with recommended focus areas</small>
+
 ## Table of Contents
 1. [General DevOps Concepts](#general-devops-concepts)
 2. [CI/CD](#cicd)
@@ -13,6 +15,8 @@
 
 ## General DevOps Concepts
 
+<small>Core DevOps principles and IAM</small>
+
 ### Question 1
 What is the difference between IAM role and an IAM user?
 
@@ -23,6 +27,8 @@ FitTrack Case Study — Design and Deploy FitTrack's MVP Backend on AWS.
 
 ## CI/CD
 
+<small>Continuous Integration & Continuous Deployment with Jenkins, GitHub Actions</small>
+
 ### Question 1
 How would you troubleshoot a sudden spike in 5XX errors on an Application Load Balancer using CloudWatch — what specific metrics and logs would you check first, in order?
 
@@ -32,6 +38,8 @@ If health checks are passing but 5XX persist, how would you differentiate whethe
 ---
 
 ## Infrastructure & Cloud
+
+<small>VPC, Terraform, RDS, and AWS infrastructure concepts</small>
 
 ### Question 1
 In a VPC, what's the practical difference between a security group and a network ACL, and when would you use both?
@@ -58,6 +66,8 @@ If you allow inbound TCP 443 to an EC2 via its security group, what happens to t
 
 ## Containers & Orchestration
 
+<small>Docker and Kubernetes fundamentals</small>
+
 ### Question 1
 (Question to be added)
 
@@ -65,12 +75,16 @@ If you allow inbound TCP 443 to an EC2 via its security group, what happens to t
 
 ## Monitoring & Logging
 
+<small>CloudWatch, observability, and alerting</small>
+
 ### Question 1
 How would you monitor and alert on an EC2 instance running out of disk space using CloudWatch, and what would you trigger when the alarm fires?
 
 ---
 
 ## Security
+
+<small>IAM, S3 encryption, bucket policies, and multi-account access control</small>
 
 ### Question 1
 How do you EC2 securely access S3 bucket?
@@ -99,6 +113,8 @@ How would you enforce encryption at rest for *all* PUTs using an S3 bucket polic
 ---
 
 ## Scripting & Automation
+
+<small>Terraform refactoring, module structure, and Linux filesystem management</small>
 
 ### Question 1
 How would you structure Terraform so the policy document is readable and reusable across environments (dev/stage/prod) without copy-pasting?
